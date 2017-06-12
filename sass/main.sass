@@ -3,3 +3,65 @@
 
 body
 	margin: 0
+	.slideshow
+		height: 565px
+		width: 800px
+		border: solid #ccc 1px
+		margin: 0 auto
+		border-radius: 15px
+		overflow: hidden
+		position: relative
+		#prev-slide
+			cursor: pointer
+			position: absolute
+			height: 50px
+			width: 50px
+			border-radius: 50%
+			background-image: url('../img/sliderButtonLeft.png')
+			border: 0
+			left: 10px
+			top: 250px
+			opacity: 0.5
+		#next-slide
+			cursor: pointer
+			position: absolute
+			height: 50px
+			width: 50px
+			border-radius: 50%
+			background-image: url('../img/sliderButtonRight.png')
+			border: 0
+			right: 10px
+			top: 250px
+			opacity: 0.5
+		.slider-list
+			margin-top: 0
+			width: 4000px
+			height: 565px
+			padding-left: 0
+			.slide
+				background-color: #000
+				width: 800px
+				height: 565px
+				list-style: none
+				border-radius: 15px
+				float: left
+				img
+					border-radius: 15px
+		.indicators
+			padding-left: 0
+			position: absolute
+			left: 345px
+			bottom: 10px
+			li
+				float: left
+				height: 15px
+				width: 15px
+				border: solid 2px #fff
+				list-style: none
+				border-radius: 50%
+				margin: 3px
+				cursor: pointer
+				&:hover
+					background-color: #fff
+			.active
+				background-color: #fff

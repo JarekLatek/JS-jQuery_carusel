@@ -4,17 +4,27 @@
 		<title>jQuery carusel</title>
 		<meta charset="utf-8">
 		<link rel="stylesheet" type="text/css" href="css/main.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 	</head>
 	<body>
-		<div id="carousel">
-			<ul>
-				<li></li>
-				<li></li>
-				<li></li>
-				<li></li>
-				<li></li>
+		<div id="carousel" class="slideshow">
+			<div id="prev-slide" data-slide="prev"></div>
+			<div id="next-slide" data-slide="next"></div>
+			<ul class="indicators">
+				<li class="active"></li>
+			    <li></li>
+			    <li></li>
+			    <li></li>
+			    <li></li>
+			</ul>
+			<ul class="slider-list">
+				<li class="slide"><img src="../img/intro.png"></li>
+				<li class="slide"><img src="../img/3m.jpg"></li>
+				<li class="slide"><img src="../img/reklamy.jpg"></li>
+				<li class="slide"><img src="../img/POS.jpg"></li>
+				<li class="slide"><img src=""></li>
 			</ul>
 		</div>
-		<script type="text/javascript" href="js/scripts.js"></script>
+		<script type="text/javascript" src="js/scripts.js"></script>
 	</body>
 </html>
