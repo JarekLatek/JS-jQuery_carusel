@@ -2,7 +2,8 @@
   box-sizing: border-box; }
 
 body {
-  margin: 0; }
+  margin: 0;
+  padding-top: 25vh; }
   body .slideshow {
     height: 565px;
     width: 800px;
